@@ -10,14 +10,25 @@ car_model - string - VARCHAR(100) - NOTNULL
 price - float - FLOAT(8,2) - NOTNULL
 sale - integer - TINYINT - NULL
 usage_years - string - VARCHAR(2) - NOTNULL
-km - string - VARCHAR(6) - NOTNULL
+km - integer- MEDIUMINT - NOTNULL
 car_status - string - TEXT - NOTNULL
 engine_status - string - TEXT - NOTNULL
 car_interior - string - VARCHAR(255) - NULL
 fuel_type - string - VARCHAR(10) - NOTNULL
-weight - string - VARCHAR(10) - NULL
-dimensions - string - VARCHAR(50) - NULL
+hybrid - boolean - TINYINT - NULL
+second_fuel_type - string - VARCHAR(10) - NULL
+weight - string - SMALLINT - NOTNULL
+height - integer - SMALLINT - NOTNULL
+length - integer - MEDIUMMINT - NOTNULL
+width - integer - SMALLMINT - NOTNULL
 paint_color - string - VARCHAR(20) - NULL
-accessories  - string - VARCHAR(255) - NULL
+air_conditioning - boolean - TINYINT - NULL 
+radio - boolean - TINYINT - NULL
+heated_seats - boolean - TINYINT - NULL
+gps - boolean - TINYINT - NULL
+alloy_rim - boolean - TINYINT - NULL
+park_assistant - boolean - TINYINT - NULL
+backup_camera - boolean - TINYINT - NULL
+transmission - string - VARCHAR(10) - NOTNULL
 overall_description - string - TEXT - NULL
 storage - integer - TINYINT - DEFAULT(0) - NOTNULL
